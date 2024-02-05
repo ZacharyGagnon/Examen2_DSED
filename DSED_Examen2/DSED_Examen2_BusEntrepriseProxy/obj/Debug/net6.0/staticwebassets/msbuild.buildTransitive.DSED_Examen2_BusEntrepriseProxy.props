@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\DSED_Examen2_BusEntrepriseProxy.props" />
-</Project>

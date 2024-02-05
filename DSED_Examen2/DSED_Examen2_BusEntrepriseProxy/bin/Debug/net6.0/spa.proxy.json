@@ -1,8 +1,0 @@
-{
-"SpaProxyServer": {
-"ServerUrl": "",
-"LaunchCommand": "",
-"WorkingDirectory": "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Examen2_BusEntrepriseProxy",
-"MaxTimeoutInSeconds": "120"
-}
-}
