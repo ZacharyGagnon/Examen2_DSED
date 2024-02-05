@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Tableau de bord";
+}
+
+<h1>Donnees de journalisation</h1>
+<div id="contenuStatistiques">
+    <ul id="nombreEntreesParSeverite">
+    </ul>
+</div>
+
+@section scripts {
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+
+    <script>
+        $(function () {
+            var connexion = new signalR.HubConnectionBuilder().withUrl("/tableauDeBordHub").build();
+            var nombreEntreesParSeverite = document.getElementById("nombreEntreesParSeverite");
+
+            function modifierLaVue(stats) {
+                nombreEntreesParSeverite.innerHTML = "";
+                console.log(stats);
+                for (var clef in stats) {
+                    console.log(clef);
+                    var li = document.createElement("li");
+                    li.innerText = clef + " : " + stats[clef];
+                    nombreEntreesParSeverite.appendChild(li);
+                }
+            }
+
+            // Votre code ici. Pour afficher les statistiques vous pouvez appeler la fonction modifierLaVue
+            // avec l'objet statistiques reçu en paramètres.
+
+            connexion.start().catch(function (err) {
+                return console.error(err.toString());
+            });
+        });
+    </script>
+}

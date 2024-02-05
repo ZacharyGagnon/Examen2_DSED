@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Examen2_BusEntrepriseProxy\\DSED_Examen2_BusEntrepriseProxy.csproj": {}
+  },
+  "projects": {
+    "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Commun\\DSED_Commun.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Commun\\DSED_Commun.csproj",
+        "projectName": "DSED_Commun",
+        "projectPath": "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Commun\\DSED_Commun.csproj",
+        "packagesPath": "C:\\Users\\Proprio\\.nuget\\packages\\",
+        "outputPath": "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Commun\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Proprio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Examen2_BusEntrepriseProxy\\DSED_Examen2_BusEntrepriseProxy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Examen2_BusEntrepriseProxy\\DSED_Examen2_BusEntrepriseProxy.csproj",
+        "projectName": "DSED_Examen2_BusEntrepriseProxy",
+        "projectPath": "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Examen2_BusEntrepriseProxy\\DSED_Examen2_BusEntrepriseProxy.csproj",
+        "packagesPath": "C:\\Users\\Proprio\\.nuget\\packages\\",
+        "outputPath": "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Examen2_BusEntrepriseProxy\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Proprio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Commun\\DSED_Commun.csproj": {
+                "projectPath": "C:\\DSED_Session_4\\DSED_Examen2\\DSED_Commun\\DSED_Commun.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
